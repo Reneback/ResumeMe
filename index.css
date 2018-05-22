@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Grand+Hotel');
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/30.png);
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	color: white;
+}
+
+nav {
+	
+	position: absolute;
+	color: white;
+	border: 2px red solid;
+	width: 80%;
+	height: auto;
+	top: 180px;
+	box-sizing: content-box;
+	text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+
+
+	
+}
+
+nav ul li{
+
+	list-style-type: none;
+
+}
+nav a{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.container {
+
+
+}
+
+.row {
+	position: fixed;
+	background-color: rgb(5,5,5,0.8); ;
+	padding: 10px;
+	width: 40%;
+	height: 100%;
+
+}
+
+.xpr {
+
+	background-color: black;
+	position: absolute;
+	height: auto;
+	width: 50%;
+	top: 100px;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.xpr .experience .interets{
+
+font-size: 18px;
+color: white;
+padding : 5px;
+margin-bottom: 10px;
+
+}
+
+.xpr img {
+	width: 50%;
+	height: 50%;
+}
+
+.experience {
+
+	background-color: black;
+	position: absolute;
+	height: auto;
+	width: 50%;
+	top: 550px;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.interets {
+
+	background-color: black;
+	position: absolute;
+	height: auto;
+	width: 50%;
+	top: 1550px;
+	right: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.menu img{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
