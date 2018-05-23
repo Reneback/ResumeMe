@@ -1,29 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Grand+Hotel');
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 body, html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url(img/30.png);
-	background-size: cover;
-	/*background-repeat: no-repeat;*/
 	color: white;
+	background-image: url(img/WALL.png);
 }
 
 nav {
 	
 	position: absolute;
 	color: white;
-	/*border: 2px red solid;*/
-	width: 80%;
+	width: 100%;
 	height: auto;
 	top: 180px;
 	box-sizing: content-box;
-	text-align: center;
-    font-family: 'Berkshire Swash', cursive;
-    font-family: 'Grand Hotel', cursive;
-    font-size: 40px;
+	text-align: left;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
 
 
 	
@@ -48,9 +45,9 @@ nav a{
 
 .row {
 	position: fixed;
-	background-color: rgb(5,5,5,0.8); ;
+	background-color: rgb(5,5,5,5); ;
 	padding: 10px;
-	width: 40%;
+	width: 30%;
 	height: 100%;
 
 }
@@ -62,7 +59,7 @@ nav a{
 	height: auto;
 	width: 50%;
 	top: 100px;
-	right: 50px;
+	right: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -72,7 +69,7 @@ nav a{
 
 .xpr .experience .interets{
 
-font-size: 18px;
+font-size: 25px;
 color: white;
 padding : 5px;
 margin-bottom: 10px;
@@ -84,19 +81,25 @@ margin-bottom: 10px;
 	height: 50%;
 }
 
+.xpr p{
+	padding: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+
 .experience {
 
 	background-color: black;
 	position: absolute;
 	height: auto;
 	width: 50%;
-	top: 550px;
+	top: 700px;
 	right: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
+	/*display: none;*/
 }
 
 .interets {
@@ -119,6 +122,9 @@ margin-bottom: 10px;
 
 	display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
 }
+h3 {
 
+	font-family: 'Rock Salt', cursive;
+}
